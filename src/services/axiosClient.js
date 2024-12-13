@@ -3,7 +3,7 @@
 import axios from 'axios'
 
 export const client = axios.create({
-	baseURL: 'https://alerts2.onrender.com/api/v1',
+	baseURL: 'https://alerts-be.onrender.com/api/v1',
 	withCredentials: true,
 	timeout: 25000
 })
